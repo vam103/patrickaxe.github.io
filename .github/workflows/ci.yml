@@ -24,7 +24,7 @@ jobs:
     runs-on: debian-latest
     strategy:
       matrix:
-        r-version: ['4.2.1']
+        r-version: ['4.1.1']
 
     steps:
       - uses: actions/checkout@v3

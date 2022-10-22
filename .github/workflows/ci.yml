@@ -37,7 +37,6 @@ jobs:
           install.packages(c("remotes", "rcmdcheck"))
           install.packages('blogdown', repos='https://cran.rstudio.com/')
           blogdown::install_hugo()
-          remotes::install_deps(dependencies = TRUE)
         shell: Rscript {0}
       - name: Script
         run: |

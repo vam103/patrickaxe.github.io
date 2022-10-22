@@ -1,0 +1,45 @@
+baseurl = "https://patrickaxe.github.io"
+languageCode = "en-us"
+title = "Patrick's Webpage"
+theme = "hugo-lithium-theme"
+googleAnalytics = ""
+disqusShortname = ""
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+
+[permalinks]
+    post = "/:year/:month/:day/:slug/"
+
+[[menu.main]]
+    name = "About"
+    url = "/about/"
+[[menu.main]]
+    name = "Home"
+    url = "https://patrickaxe.github.io/HomePage/"
+[[menu.main]]
+    name = "Showcase"
+    url = "/showcase/"
+[[menu.main]]
+    name = "GitHub"
+    url = "https://github.com/patrickaxe"
+[[menu.main]]
+    name = "Twitter"
+    url = "https://twitter.com/PatrickBDi/"
+
+[params]
+    description = "The website for Patrick's Webpage"
+
+    # options for highlight.js (version, additional languages, and theme)
+    highlightjsVersion = "9.11.0"
+    highlightjsCDN = "//cdn.bootcss.com"
+    highlightjsLang = ["r", "yaml"]
+    highlightjsTheme = "github"
+
+    MathJaxCDN = "//cdn.bootcss.com"
+    MathJaxVersion = "2.7.1"
+
+    [params.logo]
+    url = "icon.jpg"
+    width = 50
+    height = 50
+    alt = "Icon"
+
